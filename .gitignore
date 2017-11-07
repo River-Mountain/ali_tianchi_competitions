@@ -1,5 +1,5 @@
 # My configurations:
 *.csv
 *.pdf
-data
-experience
+tianchi_mobile_recommendation/data/*
+tianchi_mobile_recommendation/experience/*
