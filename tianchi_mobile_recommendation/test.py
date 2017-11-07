@@ -9,4 +9,5 @@ os.chdir("/Users/mountain/Desktop/tianchi/新人离线赛【阿里移动推荐�
 
 path = "tianchi_fresh_comp_train_user.csv"
 df = pd.read_csv(path)
+print("test")
 print(len(df[df["behavior_type"] == 4]))
