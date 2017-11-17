@@ -5,9 +5,6 @@
 import pandas as pd
 import os
 import numpy as np
-os.chdir("/Users/mountain/Desktop/tianchi/新人离线赛【阿里移动推荐算法】/数据/fresh_comp_offline")
 
-path = "tianchi_fresh_comp_train_user.csv"
-df = pd.read_csv(path)
-print("test")
-print(len(df[df["behavior_type"] == 4]))
+df1 = pd.DataFrame([1, 2, 3, 4, 7, 8, 9, 10])
+print(df1[0][(df1[0]==1)|(df1[0]==2)])
